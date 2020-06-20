@@ -1,0 +1,66 @@
+.fixed {
+    position: fixed;
+    bottom: 40;
+    width: 310;
+}
+div {
+    background-color: black;
+    height: 90px;
+    width: 100%;
+}
+.SignUp {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    background-color:blue;
+}
+body {
+    background-color: #1d1c47;
+}
+h3 {
+    color:white;
+    font-size: 25px;
+}
+p {
+    color:white;
+    font-size: 20px;
+    text-align: left;
+}
+p2 {
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+/*
+img {
+    width: 400px;
+    height:290px;
+}
+*/
+.button {
+    background-color: white;
+    border-color: blue;
+    font-size: 25px;
+    color:black;
+}
+#osuPhoto3 {
+    float:right;
+    width: 400px;
+    height:275px;
+}
+select {
+  border: 0;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  padding: 1px 5px;
+  width: 360px;
+  background: #211563;
+}
+#divAge {
+  overflow: hidden;
+  width: 350px;
+  border-radius: 2px 2px 2px 2px;
+}

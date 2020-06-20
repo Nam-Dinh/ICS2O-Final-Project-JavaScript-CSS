@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Todays work">
+		<meta name="keywords" content="MTHS, website">
+		<meta name="author" content="Nam Dinh">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<link rel="stylesheet" "text/css" href="index3.css">
+		<script src="index3.js"></script>
+		<title>Page3</title>
+	</head>
+	<body> 
+	<h1>Thank you for your submission, we're excited to have you join our program!</h1>
+	<script>
+						function getParams(){
+								var idx = document.URL.indexOf('?');
+								var params = new Array();
+								if (idx != -1) {
+										var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+										for (var i=0; i<pairs.length; i++){
+											 let nameVal = pairs[i].split('=');
+												params[nameVal[0]] = nameVal[1];
+										}
+								}
+								return params;
+						}
+					 let params = getParams();
+					 let firstname = unescape(params["firstName"]);
+					 let lastname = unescape(params["lastName"]);
+					 let age = unescape(params["age"]);
+					 let sex = unescape(params["sex"]);
+					 let exp = unescape(params["exp"]);
+					 let gear = unescape(params["gear"]);
+					 
+						document.write("First name = " + firstname + "<br>");
+						document.write("<br>");
+						document.write("Last name = " + lastname + "<br>");
+						document.write("<br>");
+						document.write("Age = " + age + "<br>");
+						document.write("<br>");
+						document.write("Sex = " + sex + "<br>");
+						document.write("<br>");
+						document.write("Has experience? " + exp + "<br>");
+						document.write("<br>");
+						document.write("Has gear? " + gear + "<br>");
+						document.write("<br>");
+						
+						 document.write("Player <b> " + firstname +" " +lastname + "</b> will be playing for the <b>"+ sex + " "+ age + "</b> team.");
+						 document.write("<br>");
+						if (exp == "No") {
+							 document.write(firstname+"'s "+ "experience with soccer will be noted (No experience).");
+					 }
+					 if (exp == "Yes"){
+							 document.write("We're happy "+ firstname + " has soccer experience!");
+					 }
+					 document.write("<br>");
+					 if (gear == "No"){
+							 document.write("Soccer gear will be required for our program. We suggest "+ firstname + " to have his / her own soccer gear. Thank you!");
+					 }
+					 if (gear == "Yes") {
+							 document.write("Thank you for having your own soccer gear! We appreciate it :)");
+					 }
+					 
+				</script>
+	</body>
+</html>

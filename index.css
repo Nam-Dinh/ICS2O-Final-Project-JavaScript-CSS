@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: #191970;
+    text-decoration: underline;
+    font-size: 50px;
+}
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+body {
+    background-color: #c2bcbd;
+}
+p2 {
+    font-size: 20px;
+}
+.div1 {
+    background-color: #191970;
+}
+p {
+    color: white;
+    font-size: 22px;
+    font-family: monospace;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Todays work">
+		<meta name="keywords" content="MTHS, website">
+		<meta name="author" content="Nam Dinh">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<script src="signUpForm.js"></script>
+		<link rel="stylesheet" "text/css" href="index2.css">
+		<title>Page2</title>
+	</head>
+	<body>
+		<div class="fixed">
+			<h1 class="SignUp">OSU sign up form</h1>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3>Please fill out the form below:</h3>
+		<hr>
+		<img src="./images/osuPage2.jpg" id="osuPhoto2" align="right" width="400">
+		<form method="get" action="index3.html">
+		  <p2>Please enter your child's name and last name in the given textboxes.</p2>
+		  <br>
+		  <p></p>
+		  <input id="firstName" name="firstName"placeholder="First name">
+		  <p></p>
+		  <input id="lastName" name="lastName" placeholder="Last name">
+		  <br>
+		  <br>
+		  <p2>Select your childs age group:</p2>
+		  <br>
+		  <br>
+		  <div id="divAge">
+        <select id="age" name="age">
+          <option value="U4-6">4 - 6</option>
+          <option value="U7-9">7 - 9</option>
+          <option value="U10-12">10 - 12</option>
+          <option value="U13-15">13 - 15</option>
+          <option value="U16-18">16 - 18</option>
+          <option value="U19+">19+</option>
+        </select>
+      </div>
+      <br>
+		  <p2>Is your child male / female?</p2>
+		  <p>Male <input type="radio" value="Male" name="sex" id="myRadioMale"></p>
+		  <p>Female <input type="radio" value="Female" name="sex" id="myRadioFemale"></p>
+		  <br>
+		  <p2>Does your child have any soccer experience?</p2>
+		  <br>
+		  	<img src="./images/osu2.jpg" id="osuPhoto3" align="right" width="400">
+		  <p>Yes<input type="radio" value="Yes"name="exp" id="expYes"></p>
+      <p>No <input type="radio" value="No" name="exp" id="expNo"></p>
+      
+      <p2>Does your child have his / her own soccer gear?</p2>
+      <p>Yes<input type="radio" value="Yes" name="gear" id="gearYes"></p>
+      <p>No <input type="radio" value="No" name="gear" id="gearNo"></p>
+      <button class="button">Submit</button>
+    </form>
+	</body>
+</html>
